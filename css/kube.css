@@ -1409,7 +1409,7 @@ input.input-smaller {
   text-transform: uppercase;
   position: relative;
   color: #0f0f0f;
-  background-color: #ffffff;
+  background-color: #354480;
 }
 .navigation-toggle:after {
   position: absolute;
@@ -1422,8 +1422,8 @@ input.input-smaller {
   line-height: 1;
 }
 .navigation-toggle.navigation-toggle-black {
-  background-color: #0f0f0f;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #354480;
 }
 .navigation-toggle.navigation-toggle-show {
   margin-bottom: 1.65em;
