@@ -29,7 +29,7 @@ a:hover {
 
 .container {
     margin: auto;
-    max-width: 662px;
+    max-width: 750px;
     padding: 0 20px
 }
 
@@ -243,4 +243,85 @@ footer .social li {
 footer .social li a {
     font-size: 1.25em;
     color: #999
+}
+
+/* CSS for the floating button */
+.scroll-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #262c45d9;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.carousel {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.carousel-item {
+    flex: 0 0 calc(100% / 3);
+    padding: 0 15px;
+    text-align: left;
+}
+
+
+.post-image-wrapper {
+    position: relative;
+    height: 144.5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.post-image {
+    height: 144.5px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.post-preview {
+    font-size: 14px;
+    max-height: 50px;
+    overflow: hidden;
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel {
+        height: auto;
+        margin-bottom: -64px;
+    }
+
+    .carousel-inner {
+        flex-wrap: wrap;
+    }
+
+    .carousel-item {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 }
