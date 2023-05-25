@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 	<title>Daniele Veri' - Cognitive User Experience</title>
@@ -13,8 +13,10 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
 	<link rel="stylesheet" href="css/custom.min.css" />
 	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="icon" href="img/favicon.png">
 	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link rel="manifest" href="/manifest.json">
 	<style>
 		.intro h1:before {
 			content: 'VERì';
@@ -24,13 +26,15 @@
 
 <body>
 	<!-- ScrollToTop -->
-	<div class="scroll-to-top" onclick="scrollToTop()" title="Click me to scroll to the top of the page">
+	<div class="scroll-to-top" ontouchstart="scrollToTop()" onclick="scrollToTop()"
+		title="Click me to scroll to the top of the page">
 		&uarr;
 	</div>
 
+
 	<!-- Navigation -->
 	<div class="main-nav">
-		<div class="container">
+		<div class="container" style="max-width: 800px;">
 			<header class="group top-nav">
 				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
 					<span class="logo"><img
@@ -41,13 +45,14 @@
 				</div>
 				<nav id="navbar-1" class="navbar item-nav">
 					<ul>
-						<li><a href="#experiences" title="Scroll to Experiences">Experiences</a></li>
+						<li><a href="#experiences" title="Scroll to Experiences">Experience</a></li>
 						<li><a href="#projects" title="Scroll to Projects">Projects</a></li>
 						<li><a href="#education" title="Scroll to Education">Education</a></li>
 						<li><a href="#skills" title="Scroll to Skills">Skills</a></li>
 						<li><a href="#blog" title="Scroll to Blog">Blog</a></li>
+						<li><a href="#download" title="Scroll to download">Downloads</a></li>
 						<li><a href="https://drive.google.com/file/d/1Tv9p830MNcuEpQRP7vm6K88a1RGEB2lw/view?usp=sharing"
-								rel="nofollow" target="_blank" title="Download my Resume">| My Resume |</a></li>
+								rel="nofollow" target="_blank" title="Download my Resume">| Resume |</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -62,20 +67,22 @@
 				<div class="unit-20">
 					<img src="img/ava.png" alt="Avatar containing a smiling Daniele, the designer">
 				</div>
-				<div class="unit-80">
+				<div class="unit-80" style="height: 170px">
 					<h1 title="I'm a UX Researched, UX Designer,  New tech lover, geek, foodie but most important: a person"
 						style="color: #262c45">I can<br><span id="typed" style="color: #2b3869bc"></span></h1>
 				</div>
 				<p
 					title="Crafting User Experiences with Cognitive Precision: I'm a user experience designer with a background in cognitive psychology. My unique perspective enables me to create intuitive and engaging experiences. By leveraging scientific insights and putting users at the center, I design with their cognitive and emotional aspects in mind, evoking positive emotions and driving conversions. I combine data-driven decision making with my expertise in cognitive psychology to ensure evidence-based designs. Stand out in today's user-focused world with visually appealing and thoughtfully crafted experiences.">
-					Crafting User Experiences with <b>Cognitive Precision</b>: I'm a user experience designer with a background in cognitive psychology. 
-					My unique perspective enables me to create <b>intuitive</b> and <b>engaging</b> experiences. <br><br>
-					By leveraging scientific insights and putting users at the center, 
-					I design with their cognitive and emotional aspects in mind, 
-					evoking positive emotions and driving conversions. 
-					I combine <b>data-driven</b> decision making with my expertise 
+					Crafting User Experiences with <b>Cognitive Precision</b>: I'm a user experience designer with a
+					background in cognitive psychology.
+					My unique perspective enables me to create <b>intuitive</b> and <b>engaging</b> experiences.
+					<br><br>
+					By leveraging scientific insights and putting users at the center,
+					I design with their cognitive and emotional aspects in mind,
+					evoking positive emotions and driving conversions.
+					I combine <b>data-driven</b> decision making with my expertise
 					in cognitive psychology to ensure evidence-based <b>designs</b>. <br><br>
-					Stand out in today's <b>user-focused</b> world with visually 
+					Stand out in today's <b>user-focused</b> world with visually
 					appealing and thoughtfully crafted experiences.
 				</p>
 			</div>
@@ -233,6 +240,31 @@
 		</div>
 	</div>
 
+	<!-- Download -->
+	<div class="skills section second" id="download">
+		<div class="container">
+			<h1 title="Downloads" style="color: #262c45">💠 Downloads</h1>
+			<ul class="skill-list list-flat">
+				<li style="color: #313a5b"><b>Accessibility Checklist</b></li>
+				<li><a href="https://leaf-cloud-e4f.notion.site/Accessibility-Checklist-b311d74037c441eda6703331124906d3"
+						rel="nofollow" target="_blank" title="Read the accessibility checklist from Google Drive">Open
+						on Notion</a> or <a
+						href="https://drive.google.com/file/d/12UF4UAoSRo-uyTjpU-v7HbGfQUrUeEG9/view?usp=share_link"
+						rel="nofollow" target="_blank"
+						title="Download the accessibility checklist from Google Drive">Download</a></li>
+			</ul>
+			<ul class="skill-list list-flat">
+				<li style="color: #313a5b"><b>Testing for Accessibility</b></li>
+				<li><a href="https://leaf-cloud-e4f.notion.site/Testing-for-Accessibility-d71a8d419f0e41899c331324cc71422b"
+						rel="nofollow" target="_blank" title="Read 'Testing for accessibility' on Notion">Open on
+						Notion</a> or <a
+						href="https://drive.google.com/file/d/13B11H3z7AlLyNP2wRMO6iZaAQMWPaoyM/view?usp=share_link"
+						rel="nofollow" target="_blank"
+						title="Download the 'Testing for Accessibility' document from Google Drive">Download</a></li>
+			</ul>
+		</div>
+	</div>
+
 	<!-- Blog -->
 	<div class="" id="blog">
 		<div class="container">
@@ -297,20 +329,32 @@
 
 		//scroll to top
 		function scrollToTop() {
-			window.scrollTo({
-				top: 0,
-				behavior: 'smooth'
-			});
+			// Calculate the scroll position on each animation frame
+			function animateScroll(timestamp) {
+				const scrollDuration = 500; // Adjust the duration as desired
+				const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+				const scrollStep = Math.PI / (scrollDuration / (timestamp - start));
+
+				if (scrollTop > 0) {
+					window.scrollTo(0, scrollTop - scrollTop * Math.cos(scrollStep));
+					window.requestAnimationFrame(animateScroll);
+				}
+			}
+
+			const start = window.performance.now();
+			window.requestAnimationFrame(animateScroll);
 		}
 
-		window.addEventListener('scroll', function () {
-			var button = document.querySelector('.scroll-to-top');
+		function handleScroll() {
+			const button = document.querySelector('.scroll-to-top');
 			if (window.pageYOffset > 100) {
 				button.style.display = 'block';
 			} else {
 				button.style.display = 'none';
 			}
-		});
+		}
+
+		window.addEventListener('scroll', handleScroll);
 
 		//medium carousel
 		var slideIndex = 0;
@@ -357,14 +401,14 @@
 				title.classList.add('post-title');
 				title.textContent = publication.title;
 
-				var preview = document.createElement('p');
+				/*var preview = document.createElement('p');
 				preview.classList.add('post-preview');
-				preview.textContent = stripHTMLTags(publication.description);
+				preview.textContent = stripHTMLTags(publication.description); */
 
 				imageWrapper.appendChild(image);
 				link.appendChild(imageWrapper);
 				link.appendChild(title);
-				link.appendChild(preview);
+				//link.appendChild(preview);
 				slide.appendChild(link);
 
 				carouselInner.appendChild(slide);

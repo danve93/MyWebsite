@@ -1,0 +1,10 @@
+{
+    "name": "Daniele Verì - Cognitive Experience Designer",
+    "short_name": "Daniele Verì - UX",
+    "theme_color": "#354480",
+    "background_color": "#fff",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+}
